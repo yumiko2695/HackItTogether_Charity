@@ -4,8 +4,8 @@
   "description": "hackathon-charityapp",
   "main": "index.js",
   "scripts": {
-    "seed": "node seed.js", 
-    "start": "node server", 
+    "seed": "node seed.js",
+    "start": "node server",
     "start-dev": "NODE_ENV='development' webpack -w & nodemon server"
   },
   "author": "",

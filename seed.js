@@ -15,8 +15,8 @@ async function seed() {
   console.log(`seeded successfully`);
 }
 
-/* Separately, attempt the seed (which puts stuff in the database),if the seed fails 
-then we are setting process.exitCode to 1 which means it's not successful, 
+/* Separately, attempt the seed (which puts stuff in the database),if the seed fails
+then we are setting process.exitCode to 1 which means it's not successful,
 this let's us know if there are any async that's still left over.
 Finally is used for resource cleanup; once we're done seeding, then close db connection. */
 async function runSeed() {
