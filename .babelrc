@@ -1,0 +1,5 @@
+//transpile & compile front end code so we can use new features in old browsers
+
+{
+  "presets": ["@babel/preset-react", "@babel/preset-env"]
+}
