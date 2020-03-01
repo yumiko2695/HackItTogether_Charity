@@ -4,7 +4,9 @@
   "description": "hackathon-charityapp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "seed": "node seed.js",
+    "start": "node server",
+    "start-dev": "NODE_ENV='development' webpack -w & nodemon server"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +24,7 @@
     "pg-hstore": "^2.3.3",
     "react-dom": "^16.13.0",
     "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
